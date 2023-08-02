@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset = "utf-8">
+        <title>Survey</title>
+    </head>
+
+    <body>
+    <header>
+        <h1>Welcome to my blog!</h1>
+    </header>
+    <nav class="menu">
+    <ul>
+        <li><a href="C:\Users\Marigold Taculog\Documents\HTML Exam\My Blog.html">My Blog</a></li>
+        <li><a href="C:\Users\Marigold Taculog\Documents\HTML Exam\Survey.html">Survey</a></li>
+    </ul>
+    </nav>
+    
+    <main>
+        <h2>Survey form</h2>
+        <form>
+            <label for="background">Your background:</label>
+                <input type="radio" id="student" name="background" value="Student">
+                <label for ="student">Student</label>
+                <input type="radio" id="developer" name="background" value="Software developer">
+                <label for ="developer">Software developer</label>
+                <input type="radio" id="other" name="background" value="Other">
+                <label for ="other">Other</label><br>
+            <label for="reaction">How do you feel about my blog:</label>
+                <select name="reaction" id="reaction">
+                    <option value="">--Please choose your answer--</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Bad">Bad</option>
+                    <option value="Worst">Worst</option>
+                </select><br>
+            <label for="topics">The topics that you want me to share:</label>
+                <input type="checkbox" id="git" name="topics" value="Git">
+                <label for="git">Git</label>
+                <input type="checkbox" id="css" name="topics" value="CSS">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="html" name="topics" value="HTML">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="javascript" name="topics" value="JavaScript">
+                <label for="javascript">JavaScript</label><br>
+            <label for="feedback">Your feedback:</label><br>
+            <textarea id="feedback" name="feedback"></textarea><br>
+            <label for="id">Your blog id:</label>
+            <input type="text" id="id" name="id"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p> © 2022 Thoughtworks</p>
+    </footer>
+</body>
+
+
+</html>
